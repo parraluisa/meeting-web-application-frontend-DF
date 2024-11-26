@@ -31,13 +31,13 @@ Si no tienes **Node.js** y **npm** instalados, sigue estos pasos:
    ```bash
    node -v
    npm -v
-Deberías ver algo como:
-
-arduino
-Copiar código
-v16.x.x  # o una versión superior
-8.x.x    # versión de npm
-
+   ```
+   Deberías ver algo como:
+   
+   ```bash
+   v16.x.x  # o una versión superior
+   8.x.x    # versión de npm
+   ```
 ## Instalación
 
 1. Clona este repositorio:
