@@ -12,8 +12,31 @@ Este es el frontend de la aplicación de videoconferencias, desarrollado con Rea
 
 ## Requisitos previos
 
-- Node.js (versión 16 o superior).
-- npm (o yarn, según prefieras).
+Para ejecutar este proyecto, asegúrate de tener lo siguiente instalado en tu máquina:
+
+- **Node.js** (versión 16 o superior).
+- **npm** (o **yarn**, según prefieras).
+
+### ¿No tienes Node.js instalado?
+
+Si no tienes **Node.js** y **npm** instalados, sigue estos pasos:
+
+1. **Descargar Node.js**:
+   - Ve a la página oficial de Node.js: [https://nodejs.org](https://nodejs.org)
+   - Descarga la versión **LTS** (Long Term Support), que es la más estable y recomendada para la mayoría de los usuarios.
+   - Ejecuta el instalador y sigue las instrucciones en pantalla. Esto instalará **Node.js** y **npm** automáticamente.
+
+2. **Verificar la instalación**:
+   Una vez instalado, abre una terminal y ejecuta los siguientes comandos para asegurarte de que Node.js y npm se instalaron correctamente:
+   ```bash
+   node -v
+   npm -v
+Deberías ver algo como:
+
+arduino
+Copiar código
+v16.x.x  # o una versión superior
+8.x.x    # versión de npm
 
 ## Instalación
 

@@ -10,7 +10,6 @@ node_modules/
 
 # React
 build/
-public/
 
 # Archivos de configuración de entorno
 .env
