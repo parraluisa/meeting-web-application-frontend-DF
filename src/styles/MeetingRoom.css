@@ -1,0 +1,150 @@
+
+.meeting-room-screen {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.meeting-video-container {
+    position: relative;
+    width: 15%; 
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1%;
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
+.video-preview.hidden {
+    display: none;
+}
+
+.camera-disabled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.video-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.user-name-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(56, 54, 54, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.control-bar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+
+.control-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.control-icon:hover {
+    transform: scale(1.2);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .config-group {
+    margin-bottom: 15px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    margin-top: 19px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-btn {
+    background-color: red;
+  }
+  
+  .close-btn:hover {
+    background-color: darkred;
+  }
+  
