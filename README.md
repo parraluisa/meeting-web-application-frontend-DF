@@ -23,8 +23,13 @@ Este es el frontend de la aplicación de videoconferencias, desarrollado con Rea
    cd meeting-room-frontend
 
 2. Instala las dependencias:
+    ```bash
     npm install
 3. Inicia el servidor de desarrollo:
-    npm start ó yarn start
+        ```bash
+        npm start
+    ó
+        ```bash
+        yarn start
 
 El frontend estará disponible en http://localhost:3000.
